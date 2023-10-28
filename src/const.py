@@ -8,8 +8,8 @@ COLS = 3
 SQSIZE = WIDTH // ROWS
 
 O_IMG = os.path.join(
-            f'resource/circle sign.png')
+            'D:/tictactoe/resource/circle sign.png')
 X_IMG = os.path.join(
-            f'resource/x sign.png')
+            'D:/tictactoe/resource/x sign.png')
 
 

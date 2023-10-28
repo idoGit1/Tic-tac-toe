@@ -65,7 +65,7 @@ class Game:
         return False
 
     def print_win(self, winner, surface):
-        font = pygame.font.Font('freesansbold.ttf', 50)
+        font = pygame.font.Font('freesansbold.ttf', 100)
         text = font.render('Winner is ' + self.winner, True,'Green')
         text_rect = text.get_rect()
         text_rect.center = (WIDTH // 2, HEIGHT // 2)
@@ -81,7 +81,7 @@ class Game:
 
 
     def print_tie(self, surface):
-        font = pygame.font.Font('freesansbold.ttf', 50)
+        font = pygame.font.Font('freesansbold.ttf', 100)
         text = font.render('TIE', True,'Red')
         text_rect = text.get_rect()
         text_rect.center = (WIDTH // 2, HEIGHT // 2)
